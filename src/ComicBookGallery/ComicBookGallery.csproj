@@ -37,6 +37,9 @@
     <None Include="obj\Debug\netcoreapp2.0\ComicBookGallery.pdb" />
     <None Include="wwwroot\Content\bootstrap.min.css" />
     <None Include="wwwroot\Content\site.css" />
+    <None Include="wwwroot\images\bone-50.jpg" />
+    <None Include="wwwroot\images\the-amazing-spider-man-657.jpg" />
+    <None Include="wwwroot\images\the-amazing-spider-man-700.jpg" />
     <None Include="wwwroot\Scripts\bootstrap.min.js" />
     <None Include="wwwroot\Scripts\jquery-1.10.2.intellisense.js" />
     <None Include="wwwroot\Scripts\jquery-1.10.2.js" />
