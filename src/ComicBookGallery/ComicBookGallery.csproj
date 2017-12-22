@@ -5,6 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp2.0\ComicBookGallery.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp2.0\ComicBookGallery.deps.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\ComicBookGallery.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\ComicBookGallery.runtimeconfig.json" />
+    <Content Include="obj\Debug\netcoreapp2.0\ComicBookGallery.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
   </ItemGroup>
 
@@ -14,6 +26,19 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp2.0\ComicBookGallery.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\ComicBookGallery.pdb" />
+    <None Include="obj\ComicBookGallery.csproj.nuget.cache" />
+    <None Include="obj\ComicBookGallery.csproj.nuget.g.props" />
+    <None Include="obj\ComicBookGallery.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp2.0\ComicBookGallery.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\ComicBookGallery.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\ComicBookGallery.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\ComicBookGallery.dll" />
+    <None Include="obj\Debug\netcoreapp2.0\ComicBookGallery.pdb" />
   </ItemGroup>
 
 </Project>
