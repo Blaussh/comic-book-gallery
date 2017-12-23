@@ -21,5 +21,15 @@ namespace ComicBookGallery.Controllers
             var series = _seriesRepository.GeSeries();
             return View(series);
         }
+
+        public ActionResult Detail(int? id)
+        {
+            if (id == null)
+            {
+                return StatusCode(404);
+            }
+            var comicBook = _seriesRepository.GetSeriesData((int)id);
+            return View(comicBook);
+        }
     }
 }
